@@ -11,7 +11,11 @@
     // Для абсолютного иморта
     "baseUrl": ".",
     "paths": {
-      "*": ["./src/*"]
+      "*": ["./src/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@features/*": ["./src/features/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@widgets/*": ["./src/widgets/*"]
     },
     // esModuleInterop позволяет работать с пакетами, которые используют
     // common js как с обычными пакетами с помощью import
